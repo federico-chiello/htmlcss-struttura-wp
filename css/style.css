@@ -8,10 +8,16 @@
   float: left;
 }
 
+.clearfix::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+
 .container {
   width: 100%;
   height: 100vh;
-  background-color: green;
   padding: 10px;
 }
 
@@ -24,39 +30,45 @@ header {
 
 /* Inizio corpo centrale */
 main{
-  height: 500px;
-  background-color: lightgrey;
+  width: 100%;
 }
 
 .col-left {
   width: 25%;
-  height: 75%;
+  height: 300px;;
   background-color: pink;
 }
 
 .center {
   width: 50%;
-  height: 100%;
+  height: 250px;
   background-color: violet;
 }
 
 .col-right {
   width: 25%;
-  height: 100%;
+  height: 700px;
+}
+
+.box-top {
+  width: 100%;
+  height: 20%;
+  background-color: pink;
+}
+
+.box-center {
+  width: 100%;
+  height: 20%;
+  background-color: green;
+}
+
+.box-bottom {
+  width: 100%;
+  height: 20%;
   background-color: blue;
-  position: relative;
 }
 
-.box.top {
-  width: 100%;
-  background-color: pink;
-  position: absolute;
-  top: 0;
-}
-
-.box.bottom {
-  width: 100%;
-  background-color: pink;
-  position: absolute;
-  bottom: 0;
+footer {
+  background-color: black;
+  height: 100px;
 }
