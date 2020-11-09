@@ -8,4 +8,10 @@
   width: 100vw;
   height: 100vh;
   background-color: green;
+  padding: 10px;
+}
+
+header {
+  height: 200px;
+  background-color: yellow;
 }
