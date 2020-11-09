@@ -16,6 +16,8 @@
 
 .container {
   padding: 10px;
+  background-image: url('https://cdn.pixabay.com/photo/2015/07/31/20/35/background-869580__340.png');
+  background-size: cover;
 }
 
 /* Inizio intestazione */
