@@ -14,10 +14,7 @@
   clear: both;
 }
 
-
 .container {
-  width: 100%;
-  height: 100vh;
   padding: 10px;
 }
 
@@ -40,35 +37,39 @@ main{
 }
 
 .center {
-  width: 50%;
+  width: calc(50% - 40px);
   height: 250px;
+  margin: 0 20px;
   background-color: violet;
 }
 
 .col-right {
   width: 25%;
-  height: 700px;
+  height: 1000px;
 }
 
 .box-top {
   width: 100%;
-  height: 20%;
+  height: 30%;
   background-color: pink;
 }
 
 .box-center {
   width: 100%;
-  height: 20%;
+  height: 30%;
   background-color: green;
 }
 
 .box-bottom {
   width: 100%;
-  height: 20%;
+  height: 30%;
   background-color: blue;
 }
+/* / corpo centrale */
 
+/* Inizio footer */
 footer {
-  background-color: black;
+  background-color: lightblue;
   height: 100px;
 }
+/* / footer */
