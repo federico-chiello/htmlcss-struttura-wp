@@ -33,25 +33,24 @@ main{
 
 .col-left {
   width: 20%;
-  height: 300px;
+  height: 500px;
   background-color: pink;
 }
 
 .maincorp {
-  width: calc(60% - 40px);
-  height: 250px;
-  margin: 0 20px;
+  width: calc(60% - 60px);
+  height: 350px;
+  margin: 0 30px;
   background-color: violet;
 }
 
 .col-right {
   width: 20%;
-  height: 1200px;
 }
 
 .box {
   width: 100%;
-  height: 30%;
+  height: 400px;
   background-color: pink;
   margin-bottom: 30px;
 }
