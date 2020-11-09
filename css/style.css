@@ -20,7 +20,7 @@
 
 /* Inizio intestazione */
 header {
-  height: 200px;
+  height: 400px;
   background-color: yellow;
 }
 /* / intestazione */
@@ -28,48 +28,39 @@ header {
 /* Inizio corpo centrale */
 main{
   width: 100%;
+  margin-top: 10px;
 }
 
 .col-left {
-  width: 25%;
-  height: 300px;;
+  width: 20%;
+  height: 300px;
   background-color: pink;
 }
 
-.center {
-  width: calc(50% - 40px);
+.maincorp {
+  width: calc(60% - 40px);
   height: 250px;
   margin: 0 20px;
   background-color: violet;
 }
 
 .col-right {
-  width: 25%;
-  height: 1000px;
+  width: 20%;
+  height: 1200px;
 }
 
-.box-top {
+.box {
   width: 100%;
   height: 30%;
   background-color: pink;
+  margin-bottom: 30px;
 }
 
-.box-center {
-  width: 100%;
-  height: 30%;
-  background-color: green;
-}
-
-.box-bottom {
-  width: 100%;
-  height: 30%;
-  background-color: blue;
-}
 /* / corpo centrale */
 
 /* Inizio footer */
 footer {
   background-color: lightblue;
-  height: 100px;
+  height: 150px;
 }
 /* / footer */
