@@ -40,14 +40,23 @@ main{
   background-color: violet;
 }
 
-.box.top {
+.col-right {
   width: 25%;
-  height: 25%;
+  height: 100%;
+  background-color: blue;
+  position: relative;
+}
+
+.box.top {
+  width: 100%;
   background-color: pink;
+  position: absolute;
+  top: 0;
 }
 
 .box.bottom {
-  width: 25%;
-  height: 25%;
+  width: 100%;
   background-color: pink;
+  position: absolute;
+  bottom: 0;
 }
