@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.float-left {
+  float: left;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -11,11 +15,14 @@
   padding: 10px;
 }
 
+/* Inizio intestazione */
 header {
   height: 200px;
   background-color: yellow;
 }
+/* / intestazione */
 
+/* Inizio corpo centrale */
 main{
   height: 500px;
   background-color: lightgrey;
@@ -31,4 +38,16 @@ main{
   width: 50%;
   height: 100%;
   background-color: violet;
+}
+
+.box.top {
+  width: 25%;
+  height: 25%;
+  background-color: pink;
+}
+
+.box.bottom {
+  width: 25%;
+  height: 25%;
+  background-color: pink;
 }
